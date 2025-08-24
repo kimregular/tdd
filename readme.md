@@ -11,7 +11,7 @@
 - classes 요소에 Spring Boot 구성 클래스 형식을 지정
 - 테스트 대상 응용프로그램이 웹 서버에서 구동되도록 webEnvironment 요소를 지정
 
-## `postForEntity()`
+## `postForEntity(p1, p2, p3)`
 - p1 : api 경로 (`/seller/signUp`)
 - p2 : 요청 본문 데이터
 - p3 : 응답 본문 데이터의 자바 타입
